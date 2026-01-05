@@ -68,6 +68,7 @@ The command that will build the client. Default value is `build` for yarn and `r
 ```
 $ serverless client build --packager yarn --command build
 $ serverless client build --packager npm --command "run build"
+$ serverless client build --packager pnpm --command "run build"
 ```
 
 #### `--cwd`, `-d` <!-- omit in toc -->
